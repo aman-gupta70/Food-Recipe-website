@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 22px;
+}
+
+.searchBar input {
+    width: 300px;
+    height: 40px;
+    padding: 11px;
+    font-size: 17px;
+    border: 1px solid rgb(83, 83, 83);
+    outline: none;
+    border-radius: 33px;
+}
+
+.searchBar button {
+    width: 60px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.dishName {
+    display: flex;
+    gap: 11px;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.dish {
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border-radius: 22px;
+    background-color: rgb(2, 133, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.dish:hover {
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+/* Styling the < and > buttons */
+#prevBtn, #nextBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(2, 133, 255);
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    color: rgb(223, 223, 223);
+}
+
+.showMeal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 22px;
+}
+
+.showMeal .card {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 3px rgb(221, 221, 221);
+    margin-top: 20px;
+    border-radius: 4px;
+}
